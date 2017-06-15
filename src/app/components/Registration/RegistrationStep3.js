@@ -25,7 +25,7 @@ const styles = {
         color: '#ffffff',
         border: '1px solid #fff',
         borderRadius: 3,
-        padding: '0 10px'
+        padding: '0 10px',
     },
     radio: {
         display: 'inline-block',

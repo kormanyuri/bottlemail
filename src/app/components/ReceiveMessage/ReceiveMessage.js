@@ -22,7 +22,7 @@ const styles = {
         textTransform: 'none'
     },
     btnStyle1: {
-        minWidth: '150px'
+        minWidth: '130px'
     },
     smallIcon: {
         width: 16,

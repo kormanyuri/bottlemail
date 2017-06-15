@@ -160,7 +160,7 @@ export default class Settings extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-40">
-                                    <div className="text-right"><Link to="/settings/gender">Мужской</Link></div>
+                                    <div className="text-right"><Link style={{color: 'inherit'}} to="/settings/gender">Мужской</Link></div>
                                     <ChevronRight style={{position: 'absolute', right: '0', top: '12px'}} />
                                 </div>
                             </div>
@@ -206,8 +206,40 @@ export default class Settings extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        <Divider style={{width: '100%', marginBottom: '20px'}} />
                         <Divider style={{width: '100%'}} />
-
+                        <Link style={{color: 'inherit'}} to="/settings/privacy-policy">
+                            <div className="group-input">
+                                <div className="input-row clearfix">
+                                    <div className="col-70">
+                                        <div className="my-label">
+                                            Политика конфиденциальности
+                                        </div>
+                                    </div>
+                                    <div className="col-30">
+                                        <ChevronRight style={{position: 'absolute', right: '0', top: '12px'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Divider style={{width: '100%', marginBottom: '20px'}} />
+                        <Divider style={{width: '100%'}} />
+                        <Link style={{color: 'inherit', width: '100%'}} to="/settings/about">
+                            <div className="group-input">
+                                <div className="input-row clearfix">
+                                    <div className="col-70">
+                                        <div className="my-label">
+                                            О проекте
+                                        </div>
+                                    </div>
+                                    <div className="col-30">
+                                        <ChevronRight style={{position: 'absolute', right: '0', top: '12px'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                        <Divider style={{width: '100%', marginBottom: '20px'}} />
+                        <Divider style={{width: '100%'}} />
                     </div>
                 </div>
                 <NavigationBottom active={2} />

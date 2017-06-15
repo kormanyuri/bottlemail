@@ -4,7 +4,7 @@ import IconButton from 'material-ui/IconButton';
 
 import Messages from '../Messages/Messages';
 
-const topPanelTitle = <span>Кому отправим?</span>;
+const topPanelTitle = <span>Послание</span>;
 const PanelTopColLeft = <IconButton href="/#/whom-send"><NavigateBefore /></IconButton>;
 const PanelTopColRight = <IconButton></IconButton>;
 

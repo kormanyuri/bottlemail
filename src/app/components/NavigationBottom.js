@@ -34,10 +34,10 @@ class NavigationBottom extends Component {
                     <BottomNavigation selectedIndex={this.state.selectedIndex}>
 
                             <BottomNavigationItem
-                                label="Получить послание"
+                                label="Получить"
                                 icon={chat_bubble}
                                 href="/#/receive-message-no-message"
-                                style={{paddingLeft: 0, paddingRight: 0, lineHeight: 1, textAlign: 'center'}}
+                                style={{paddingLeft: 0, paddingRight: 0, lineHeight: 1, textAlign: 'center', fontSize: '12px !important'}}
                             />
 
                             <BottomNavigationItem
